@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Silkscreen&display=swap');
+
+:root {
+    --verde1: #042326;
+    --verde2: #0a3a40;
+    --verde3: #0f5959;
+    --verde4: #1d7373;
+    --verde5: #107361;
+}
+
+/*
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Silkscreen', cursive;
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: var(--verde2);
+
+    color: rgba(255, 255, 255, 0.7);
+    text-align: justify;
+    line-height: 1.5;
+}
+
+nav {
+    background: linear-gradient(to right, var(--verde1), var(--verde5));
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    margin-top: 0;
+}
+
+nav li {
+    list-style: none; 
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    padding: .9em 2em;
+}
+
+nav a:hover {
+    color: rgba(255, 255, 255, 0.5);
+    border-bottom: 3px solid;
+}
+
+nav span {
+    color: #ffffff;
+}
+
+main {
+    width: 50%;
+    margin:0 auto;
+    background-color: var(--verde5);
+    padding: 2em 3em;
+    border-radius: 1em 1em 0 0 ;
+}
+
+#sobre h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Silkscreen', cursive;
+    font-weight: normal;
+    font-size: 3em;
+    margin-top: 0;
+}
+
+#sobre img {
+    border-radius: 50%;
+    border: 3px solid var(--verde2);
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 2em;
+    border-bottom: 1px solid;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description img {
+    border-radius: 1em;
+}
+
+.description p{
+    margin-top: 0;
+    padding-left: 1em;
+}
+
+#contato ul {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    margin-top: 0;
+}
+
+#contato li {
+    list-style: none; 
+}
+
+#contato a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    padding: .9em 1em;
+}
+
+#contato a:hover {
+    color: #ffffff;
+}
+
+footer {
+    background-color: var(--verde1);
+    
+}
+
+footer p{
+    text-align: center;
+    margin: 0;
+    padding: .8em;
+}
