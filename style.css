@@ -94,18 +94,27 @@ h2 {
     border-bottom: 1px solid;
 }
 
-.description {
-    display: flex;
-    justify-content: space-between;
+.img-rigth img {
+    float: right;
+    margin-left: 1em;
+    border-radius: .5em;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);   
 }
 
-.description img {
-    border-radius: 1em;
+.img-left img {
+    float: left;
+    margin-right: 1em;
+    border-radius: .5em;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5); 
 }
 
-.description p{
-    margin-top: 0;
-    padding-left: 1em;
+.link-txt {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link-txt:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
 }
 
 #contato ul {
