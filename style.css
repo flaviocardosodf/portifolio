@@ -172,3 +172,24 @@ footer p{
         padding: .9em .5em;
     }
 }
+
+@media (max-width: 375px) {
+  
+    nav a {
+        padding: .2em;
+    }
+    
+    .img-rigth img {
+        float: none;
+        margin-left: auto;
+    }
+
+    .img-left img {
+        float: none;
+        margin-right: auto;
+    }
+
+    .img-rigth p, .img-left p {
+        text-align: justify;
+    }    
+}
