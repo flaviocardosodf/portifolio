@@ -8,6 +8,9 @@ body {
     box-sizing: border-box;
     color: #464646;
     font-family: 'Raleway', sans-serif;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .cabecalho {
@@ -16,7 +19,7 @@ body {
     display: flex;
     height: 5.5rem;
     justify-content: space-between;
-    padding: 1rem 9.5rem;
+    padding: 1rem 5rem;
 }
 
 .logo {
@@ -60,11 +63,11 @@ body {
 .banner {
     background: #f5f5f5;
     display: flex;
-    padding: 1rem 9.5rem;
+    padding: 1rem 5rem;
+    justify-content: space-between;
 }
 
 .banner__texto {
-    /* align-items: center; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -109,7 +112,7 @@ body {
 
 #sobre {
     background: #EAF2FD;
-    padding: 1rem 9.5rem;
+    padding: 1rem 5rem;
 }
 
 .sobre__titulo {
@@ -126,7 +129,7 @@ body {
 
 #skills {
     background: #f5f5f5;
-    padding: 1rem 9.5rem;
+    padding: 1rem 5rem;
 }
 
 .skills__titulo {
@@ -165,7 +168,7 @@ body {
 
 #hobbies {
     background: #f5f5f5;
-    padding: 1rem 9.5rem;
+    padding: 1rem 5rem;
 }
 
 .hobbies__titulo {
@@ -184,7 +187,7 @@ body {
 
 #experiencias {
     background: #EAF2FD;
-    padding: 1rem 9.5rem;
+    padding: 1rem 5rem;
 }
 
 .experiencias__titulo {
@@ -250,7 +253,7 @@ body {
 
 #contato {
     background: #EAF2FD;
-    padding: 1rem 9.5rem; 
+    padding: 1rem 5rem;
 }
 
 .contato__box {
