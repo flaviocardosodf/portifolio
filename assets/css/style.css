@@ -64,7 +64,7 @@ body {
 }
 
 .banner__texto {
-    align-items: center;
+    /* align-items: center; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -182,50 +182,6 @@ body {
     margin-bottom: 5.5rem;
 }
 
-#formacao {
-    background: #EAF2FD;
-    padding: 1rem 9.5rem;
-}
-
-.formacao__titulo {
-    font-size: 2rem;
-    font-weight: 700;
-    margin: 5.125rem 0 2rem;
-    text-align: center;
-}
-
-.formacao__box {
-    display: flex;
-    justify-content: space-between;
-}
-
-.formacao__item-img {
-    align-items: center;
-    background: #ffffff;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    height: 300px;
-    justify-content: space-between;
-    padding: 4.875rem 5.5rem;
-    width: 500px;
-}
-
-.formacao__item--logo {
-    width: 200px;
-    height: 150px;
-}
-
-.formacao__item-titulo {
-    margin: .5rem 0;
-    font-size: 1.375rem;
-    font-weight: 700;
-}
-
-.formacao__item-descricao {
-    font-weight: 500;
-}
-
 #experiencias {
     background: #EAF2FD;
     padding: 1rem 9.5rem;
@@ -238,9 +194,10 @@ body {
     text-align: center;
 }
 
-.experiencias__box-item {
+.experiencias__box-item, .experiencias__box-item-esquerda {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-bottom: 3.34375rem;
 }
 
@@ -254,7 +211,6 @@ body {
 }
 
 .experiencias__item-texto {
-    width: 40%;
     margin-left: 1.625rem;
 }
 
